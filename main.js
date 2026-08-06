@@ -47,9 +47,9 @@ const PRODUCTS = [
     sizes: '50 · 52 · 54 · 56 · 58',
     desc: 'قصة راقية وعصرية تمنح الحركة أناقة إضافية.',
     images: [
-      'https://cdn.salla.sa/gmlgv/8163b928-2d2e-49b6-bdc2-7c90a5db59be-750x1000-lfH1hmkayAd79irF8GkOndCYHHeTzhWUuuXlCL5M.jpg',
-      'https://cdn.salla.sa/gmlgv/add42b2e-9dff-4032-8640-c44d526af08f-750x1000-f8E7NXmkbT8dlMAeZ2dLM6zCpezPAXcnlOag8Lhj.jpg',
-      'https://cdn.salla.sa/gmlgv/8337ced4-b80d-47ee-b010-dead8616368e-750x1000-G5KKmy9FTpmlusZ33XABAs0LsogxhLEVtBgsk9cD.jpg'
+      'https://cdn.salla.sa/gmlgv/7b06ce6f-87e1-4e88-9257-bdeaa867e535-562.5x1000-qHVvW22iPZN48RqkXjoPUTHiIFRh88NpITC7etjr.jpg',
+      'https://cdn.salla.sa/gmlgv/36b29d4a-2408-426b-97b4-b8d683d094ac-562.5x1000-9pDDjDyymVUfYEHJURx6wano2giYa59VFm8KoUIA.jpg',
+      'https://cdn.salla.sa/gmlgv/78fd6ad2-3fe6-4da2-a82e-7191b2049459-562.5x1000-jZmIg9rUkG7yzwPtBDYh31kOiOaCqEjNlAahhZ7B.jpg'
     ]
   },
   {
@@ -60,9 +60,9 @@ const PRODUCTS = [
     sizes: '52 · 54 · 56',
     desc: 'نسيج ناعم صيفي وانسيابي مع اضافة تطريز أسود فاخر بالكم',
     images: [
-      'https://cdn.salla.sa/gmlgv/9662dde5-8894-47de-a36b-079d0d1dde80-562.5x1000-wCK6aEgDjE7qNZrTzeMKdE3n3VxNQWCR5hB6IjDk.jpg',
-      'https://cdn.salla.sa/gmlgv/ec982200-ef6b-4331-891f-6df9b5035cc6-562.5x1000-EVFovxxonwbKwMvZ6WE3BJphdIGl0YQrYW7Af4FM.jpg',
-      'https://cdn.salla.sa/gmlgv/14b0c135-51d2-407c-b6a7-19eb43a4be4f-562.5x1000-DYGa41HTZaLFDFonsksUvY6QiZOD2RBlvLory98n.jpg'
+      'https://cdn.salla.sa/gmlgv/c9e5d606-d9f5-4d71-a12d-4ce5e72f2e6e-562.5x1000-efp5C9fxk4SKGCJ5UQQeRuljqW39YTfKwAnyoSdJ.jpg',
+      'https://cdn.salla.sa/gmlgv/2f5e79ab-25f3-42ce-b26b-5933eb6566c1-562.5x1000-Zq9vrVqPeDhW8VqY7cncpzohtOlMcbIn5xEHX7s0.jpg',
+      'https://cdn.salla.sa/gmlgv/c5f38946-bcf1-4cfb-a68c-37f2c68da686-562.5x1000-KX53qhGuBnbsGygHIAsClAXwxQcgkqtCOSaU67m8.jpg'
     ]
   },
   {
@@ -86,9 +86,9 @@ const PRODUCTS = [
     sizes: '50 · 52 · 54 · 56',
     desc: 'تصميم أنيق وناعم صيفي انسيابي مع اضافة جاكار أسود فاخر الى الأكمام',
     images: [
-      'https://cdn.salla.sa/gmlgv/c4a588ad-a525-4ac9-b6f7-c772da76fcfd-562.5x1000-Hyfwyuf3mtx5qMB3qDdbsi1j3d01N0UWrwyBHqRw.jpg',
-      'https://cdn.salla.sa/gmlgv/17057f24-7487-4d3c-bf9f-d979de0c0e37-562.5x1000-EKyieBrsJ9mb8WKW6OjAMf3RDUg3iPZojs9wdKbl.jpg',
-      'https://cdn.salla.sa/gmlgv/aee68450-04bc-4727-aa55-9e9646ae840f-562.5x1000-frNIF3cHjLzaw1H4oLsV5jjIREbNRDTCGTW0Y9JK.jpg'
+      'https://cdn.salla.sa/gmlgv/dc8a5e06-f55c-4027-9e5c-21ddb4eead2a-562.5x1000-ClMZmk4yrsdgvZp4d6NFfKXtxafRhnWeLKLvHKEh.jpg',
+      'https://cdn.salla.sa/gmlgv/b5a6ce56-f2d3-4a40-aa07-154ef0db8db4-562.5x1000-oB5URsOkUqDTPyRQoNXnbDzDTCiyXLo4ZUWjINKS.jpg',
+      'https://cdn.salla.sa/gmlgv/b140fba1-d637-4eaf-a38a-fa91ecf20b2c-562.5x1000-F4bdgwpe36ZUVHSUCHlrLIxLj0LbmdVQps5BZfvY.jpg'
     ]
   },
   {
@@ -168,6 +168,45 @@ const PRODUCTS = [
       'https://cdn.salla.sa/gmlgv/fa2ffd20-6499-413f-9cbf-7c522540ed6e-562.5x1000-4q6uR4pr7GaJiXXjaPQ4AMLAouETBPxFoiTnnPU7.jpg',
       'https://cdn.salla.sa/gmlgv/8a943e18-ce17-409d-a05e-171373ae6729-562.5x1000-sXZqrnSeV1qt43Trz87fswbjx81X8tyA5sjPUOCb.jpg'
     ]
+  },
+  {
+    name: '00013',
+    fabric: 'ليزر بريميوم',
+    tailoring: '   قصة ربع كلوش',
+    color: 'أسود',
+    sizes: '50 · 52 · 54 · 56',
+    desc: 'عباية تعكس فخامة هادئة وحضور راق من قماش الليزر مع شيفون كوري خارجي   ',
+    images: [
+      'https://cdn.salla.sa/gmlgv/0645bfc2-d5d6-4c94-b16e-d782b2b4b475-562.5x1000-fIaEazyTY1BgQbtbniz5D3x9IYP0OIIIvGOQ6h71.jpg',
+      'https://cdn.salla.sa/gmlgv/314f2568-d783-498b-9ff6-5e797b7799e1-562.5x1000-a1RrVvmdm8ByzK2ck6ZN5dhFWtGzFZivyjsjts59.jpg',
+      'https://cdn.salla.sa/gmlgv/0832cd4d-09c5-435b-a055-dcd372f20625-562.5x1000-gBguTQjXeSWvmeYz9ntjANIKH5Wz6D1sdHymDoZe.jpg'
+    ]
+  },
+  {
+    name: '00014',
+    fabric: 'كريب ملكي',
+    tailoring: '   قصة نص كلوش',
+    color: 'أسود',
+    sizes: '50 · 52 · 54 · 56',
+    desc: 'عباية تعكس فخامة هادئة وحضور راق من قماش الكريب الملكي وتطريو وفستان خارجي   ',
+    images: [
+      'https://cdn.salla.sa/gmlgv/1de158bd-2e19-4986-8914-25b80da65fbb-562.5x1000-emyZK9DQeIsk9Wu8fsQCrmnPcd09CPgqbbvpe6Z7.jpg',
+      'https://cdn.salla.sa/gmlgv/126cb382-83ee-435a-b965-0a45cc24d431-562.5x1000-jslTSl7wO4ydSF68i0BX78uCy5wX4Cr3ID8SWi0h.jpg',
+      'https://cdn.salla.sa/gmlgv/11924204-0653-4526-b622-0bae70bc5a15-562.5x1000-RO3XpnTAoJqVLI5qsXzyUiD3I0bf5jyxujkArLp3.jpg'
+    ]
+  },
+  {
+    name: '00015',
+    fabric: 'انترنت',
+    tailoring: '   قصة نص كلوش',
+    color: 'أسود',
+    sizes: '50 · 52 · 54 · 56',
+    desc: 'عباية تعكس فخامة هادئة وحضور راق من قماش الانترنت وتطريو بالكم ومن الامام    ',
+    images: [
+      'https://cdn.salla.sa/gmlgv/52e27491-5df3-4dfc-8076-f8cae32c5f32-562.5x1000-I9kxBnJ8XF8yFkgJQBBdgZRVCdc3nxWfhsrIk8Ln.jpg',
+      'https://cdn.salla.sa/gmlgv/10d862ba-2390-42be-97a8-be134a8517a5-562.5x1000-29ABwTRCjGtOkKkVyW3gYqlujTbF4WcvReuMlQ3q.jpg',
+      'https://cdn.salla.sa/gmlgv/722dc73c-c2e4-4471-88fa-8877b8c006ff-562.5x1000-SyRm0SpI1gZg7FDAb3je6LfANmm2dXNoTGtPOOqg.jpg'
+    ]
   }
 ];
 
@@ -177,8 +216,7 @@ const PRODUCTS = [
 
 function buildWhatsappMessage(product, size) {
   const lines = [
-    'السلام عليكم',
-    '',
+  
     'عرض السعر التقريبي للعباية التالية:',
     `رقم العباية: ${product.name}`,
     `القماش: ${product.fabric}`,
@@ -214,7 +252,7 @@ function createProductCard(product, index) {
     </div>
     <div class="thumb-row" role="group" aria-label="صور مصغّرة لـ ${product.name}"></div>
     <div class="card-body">
-      <h3 class="product-name">${product.name}</h3>
+      <h3 class="product-name">[ ${String(index +1).padStart(3, '0')} ]</h3>
       <ul class="spec-list">
         <li><b>القماش</b>${product.fabric}</li>
         <li><b>التفصيل</b>${product.tailoring}</li>
@@ -222,7 +260,7 @@ function createProductCard(product, index) {
         <li><b>المقاسات</b>${product.sizes}</li>
       </ul>
       <p class="product-desc">${product.desc}</p>
-      <button type="button" class="card-cta">${svgWhatsappIcon()}<span>استفسر عبر واتساب</span></button>
+      <button type="button" class="card-cta">${svgWhatsappIcon()}<span>ارسل السعر واتساب</span></button>
     </div>
   `;
 
@@ -367,7 +405,7 @@ function initFooter() {
 
   const mainWhatsapp = document.getElementById('mainWhatsapp');
   if (mainWhatsapp) {
-    const genericMessage = 'السلام عليكم\n\nأرغب بالاستفسار عن مجموعة العبايات لديكم.\n\nوشكراً.';
+    const genericMessage = 'السلام عليكم\n\n';
     mainWhatsapp.href = whatsappLink(genericMessage);
   }
 }

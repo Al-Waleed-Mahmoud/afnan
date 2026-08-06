@@ -341,7 +341,11 @@ Why
   color: var(--gold);
   font-weight: bold;
 }
-
+@media (max-width: 620px) {
+  .why h2{
+    font-size: 12px;
+  }
+}
 
 /* =========================================================
    About
@@ -501,7 +505,7 @@ Why
   gap: 10px;
   width: 100%;
   padding: 13px;
-  background: #22292a;
+  background: #385d6f;
   color: #fff;
   border: 1px solid var(--gold);
   border-radius: 3px;
