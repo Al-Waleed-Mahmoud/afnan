@@ -14,7 +14,7 @@ const WHATSAPP_NUMBER = '966530315738';
 // Product catalogue. Replace image URLs with your own photography.
 const PRODUCTS = [
   {
-    name: '0001',
+    name: '1',
     fabric: 'قماش ذانايس عالي الجودة ',
     tailoring: 'كسرتان أنيقتان في الأمام والخلف تضيفان انسيابية وجمالًا',
     color: 'أسود',
@@ -27,7 +27,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '0002',
+    name: '2',
     fabric: 'صالونا ',
     tailoring: 'تصنع من قماش سادة عالي الجودة، وتتميز بقصة مستقيمة وأنيقة ',
     color: 'أسود  ',
@@ -40,7 +40,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '0003',
+    name: '3',
     fabric: 'قماش شموه ناعم أسود فاحم',
     tailoring: "قصة ربع كلوش",
     color: 'أسود فحمي',
@@ -53,7 +53,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '0004',
+    name: '4',
     fabric: 'انترنت سواد فاحم ',
     tailoring: "قصة نص كلوش، ",
     color: 'أسود  فحمي',
@@ -66,7 +66,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '0005',
+    name: '5',
     fabric: '  كريب ملكي كوري',
     tailoring: ' قصة ربع كلوش  ',
     color: ' أسود فحمي',
@@ -79,7 +79,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '0006',
+    name: '6',
     fabric: ' انترنت كوري ',
     tailoring: '   قصة ربع كلوش',
     color: 'أسود',
@@ -92,7 +92,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '0007',
+    name: '7',
     fabric: '  زهره القمر كوري ',
     tailoring: '   قصة نص كلوش',
     color: 'أسود',
@@ -105,7 +105,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '0008',
+    name: '8',
     fabric: 'كريب ملكي ',
     tailoring: '   قصة نص كلوش',
     color: 'أسود',
@@ -118,7 +118,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '0009',
+    name: '9',
     fabric: 'كريب ملكي متوسط الثقل',
     tailoring: '   قصة نص كلوش',
     color: 'أسود',
@@ -131,7 +131,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '00010',
+    name: '10',
     fabric: 'انترنت',
     tailoring: '   قصة ربع كلوش',
     color: 'أسود',
@@ -144,7 +144,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '00011',
+    name: '11',
     fabric: 'انترنت',
     tailoring: '   قصة ربع كلوش',
     color: 'أسود',
@@ -157,7 +157,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '00012',
+    name: '12',
     fabric: 'انترنت',
     tailoring: '   قصة ربع كلوش',
     color: 'أسود',
@@ -170,7 +170,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '00013',
+    name: '13',
     fabric: 'ليزر بريميوم',
     tailoring: '   قصة ربع كلوش',
     color: 'أسود',
@@ -183,7 +183,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '00014',
+    name: '14',
     fabric: 'كريب ملكي',
     tailoring: '   قصة نص كلوش',
     color: 'أسود',
@@ -196,7 +196,7 @@ const PRODUCTS = [
     ]
   },
   {
-    name: '00015',
+    name: '15',
     fabric: 'انترنت',
     tailoring: '   قصة نص كلوش',
     color: 'أسود',
@@ -218,7 +218,7 @@ function buildWhatsappMessage(product, size) {
   const lines = [
   
     'عرض السعر التقريبي للعباية التالية:',
-    `رقم العباية: `[${String(index +1).padStart(3, '0')}]``,
+    `رقم العباية: [${product.name.padStart(3, '0')}]`,
     `القماش: ${product.fabric}`,
     `التفصيل: ${product.tailoring}`,
     `اللون: ${product.color}`,
