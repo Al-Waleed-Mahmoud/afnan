@@ -218,7 +218,7 @@ function buildWhatsappMessage(product, size) {
   const lines = [
   
     'عرض السعر التقريبي للعباية التالية:',
-    `رقم العباية: ${String(index +1).padStart(3, '0')}`,
+    `رقم العباية: `[${String(index +1).padStart(3, '0')}]``,
     `القماش: ${product.fabric}`,
     `التفصيل: ${product.tailoring}`,
     `اللون: ${product.color}`,
